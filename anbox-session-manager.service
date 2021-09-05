@@ -2,6 +2,7 @@
 Description=Anbox Session Manager
 
 [Service]
+Environment="EGL_PLATFORM=x11"
 ExecStart=/snap/bin/anbox session-manager
 
 [Install]
