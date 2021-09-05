@@ -6,4 +6,4 @@ Environment="EGL_PLATFORM=x11"
 ExecStart=/snap/bin/anbox session-manager
 
 [Install]
-WantedBy=default.target
+WantedBy=graphical-session.target
