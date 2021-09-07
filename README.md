@@ -17,3 +17,16 @@ you can check if anbox's session-manager is running properly with
 ```
 systemctl --user status anbox-session-manager
 ```
+
+## Synapse
+
+synapse is a semantic launcher that takes advantage of zeitergeist to open recent files and to launch applications
+
+to make use of the service use the following commands:
+```
+sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service > /etc/systemd/user/anbox-session-manager.service
+systemctl --user start synapse
+systemctl --user enable synapse
+```
+
+if synapse is runnning properly you should be able to trigger it with it's shortcut, that is ctrl+space
