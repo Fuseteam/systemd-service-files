@@ -8,7 +8,7 @@ This service file is based on the one [debian](https://salsa.debian.org/zhsj/anb
 note that it assumes the snap version of anbox
 to make use of it use the following commands:
 ```
-sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/anbox-session-manager.service > /etc/systemd/user/anbox-session-manager.service
+sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/anbox-session-manager.service --output /etc/systemd/user/anbox-session-manager.service
 systemctl --user start anbox-session-manager
 systemctl --user enable anbox-session-manager
 ```
@@ -24,7 +24,7 @@ synapse is a semantic launcher that takes advantage of zeitergeist to open recen
 
 to make use of the service use the following commands:
 ```
-sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service > /etc/systemd/user/anbox-session-manager.service
+sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service --output /etc/systemd/user/anbox-session-manager.service
 systemctl --user start synapse
 systemctl --user enable synapse
 ```
