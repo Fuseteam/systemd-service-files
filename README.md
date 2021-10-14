@@ -24,7 +24,7 @@ synapse is a semantic launcher that takes advantage of zeitergeist to open recen
 
 to make use of the service use the following commands:
 ```
-sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service --output /etc/systemd/user/anbox-session-manager.service
+sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service --output /etc/systemd/user/synapse.service
 systemctl --user start synapse
 systemctl --user enable synapse
 ```
