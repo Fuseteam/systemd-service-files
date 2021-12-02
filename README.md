@@ -6,9 +6,14 @@ this repo contains systemd service files i write and maintain for my machines. T
 
 This service file is based on the one [debian](https://salsa.debian.org/zhsj/anbox/-/blob/master/debian/anbox-session-manager.service) ships to automatically start anbox's session-manager on boot.
 note that it assumes the snap version of anbox
-to make use of it use the following commands:
+
+to make use of it download by right clicking below and selecting "save link as"
+
+[![download](https://github.com/Fuseteam/systemd-service-files/blob/main/images/download.jpg)](https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/anbox-session-manager.service)
+
+save it in your downloads folder and run the following commands:
 ```
-sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/anbox-session-manager.service --output /etc/systemd/user/anbox-session-manager.service
+sudo mv ~/Downloads/anbox-session-manager.service /etc/systemd/user/anbox-session-manager.service
 systemctl --user start anbox-session-manager
 systemctl --user enable anbox-session-manager
 ```
@@ -22,9 +27,14 @@ systemctl --user status anbox-session-manager
 
 synapse is a semantic launcher that takes advantage of zeitergeist to open recent files and to launch applications
 
-to make use of the service use the following commands:
+
+to make use of it download by right clicking below and selecting "save link as"
+
+[![download](https://github.com/Fuseteam/systemd-service-files/blob/main/images/download.jpg)](https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service)
+
+save it in your downloads folder and run the following commands:
 ```
-sudo curl https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service --output /etc/systemd/user/synapse.service
+sudo mv ~/Downloads/synapse.service /etc/systemd/user/synapse.service
 systemctl --user start synapse
 systemctl --user enable synapse
 ```
