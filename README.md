@@ -14,8 +14,7 @@ to make use of it download by right clicking below and selecting "save link as"
 save it in your downloads folder and run the following commands:
 ```
 sudo mv ~/Downloads/anbox-session-manager.service /etc/systemd/user/anbox-session-manager.service
-systemctl --user start anbox-session-manager
-systemctl --user enable anbox-session-manager
+systemctl --user enable --now anbox-session-manager
 ```
 
 you can check if anbox's session-manager is running properly with 
@@ -35,8 +34,7 @@ to make use of it download by right clicking below and selecting "save link as"
 save it in your downloads folder and run the following commands:
 ```
 sudo mv ~/Downloads/synapse.service /etc/systemd/user/synapse.service
-systemctl --user start synapse
-systemctl --user enable synapse
+systemctl --user enable --now synapse
 ```
 
 if synapse is runnning properly you should be able to trigger it with it's shortcut, that is ctrl+space
