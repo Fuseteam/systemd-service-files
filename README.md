@@ -9,7 +9,7 @@ note that it assumes the snap version of anbox
 
 to make use of it download by right clicking below and selecting "save link as"
 
-[![download](https://github.com/Fuseteam/linus-proof/blob/main/images/download.jpg)](https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/anbox-session-manager.service)
+[![download](https://github.com/Fuseteam/linus-proof/blob/main/images/download.png)](https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/anbox-session-manager.service)
 
 save it in your downloads folder and run the following commands:
 ```
@@ -29,7 +29,7 @@ synapse is a semantic launcher that takes advantage of zeitergeist to open recen
 
 to make use of it download by right clicking below and selecting "save link as"
 
-[![download](https://github.com/Fuseteam/linus-proof/blob/main/images/download.jpg)](https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service)
+[![download](https://github.com/Fuseteam/linus-proof/blob/main/images/download.png)](https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/synapse.service)
 
 save it in your downloads folder and run the following commands:
 ```
