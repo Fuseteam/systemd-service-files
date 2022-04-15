@@ -1,0 +1,10 @@
+[Unit]
+Description=Signal Desktop
+
+[Service]
+RemainAfterExit=yes
+ExecStart=/usr/bin/snap enable signal-desktop
+ExecStop=/usr/bin/snap disable signal-desktop
+
+[Install]
+WantedBy=graphical-session.target

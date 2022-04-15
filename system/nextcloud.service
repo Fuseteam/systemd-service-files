@@ -1,0 +1,7 @@
+[Unit]
+Description=Nextcloud
+
+[Service]
+RemainAfterExit=yes
+ExecStart=/usr/bin/snap enable nextcloud
+ExecStop=/usr/bin/snap disable nextcloud

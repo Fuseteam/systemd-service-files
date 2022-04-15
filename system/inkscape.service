@@ -1,0 +1,10 @@
+[Unit]
+Description=GIMP
+
+[Service]
+RemainAfterExit=yes
+ExecStart=/usr/bin/snap enable gimp
+ExecStop=/usr/bin/snap disable gimp
+
+[Install]
+WantedBy=graphical-session.target
