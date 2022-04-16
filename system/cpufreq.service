@@ -7,4 +7,4 @@ ExecStart=/usr/bin/snap enable cpufreq
 ExecStop=/usr/bin/snap disable cpufreq
 
 [Install]
-WantedBy=graphical-session.target
+WantedBy=graphical.target

@@ -7,4 +7,4 @@ ExecStart=/usr/bin/snap enable cpufetch
 ExecStop=/usr/bin/snap disable cpufetch
 
 [Install]
-WantedBy=graphical-session.target
+WantedBy=graphical.target

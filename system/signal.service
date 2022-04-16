@@ -7,4 +7,4 @@ ExecStart=/usr/bin/snap enable signal-desktop
 ExecStop=/usr/bin/snap disable signal-desktop
 
 [Install]
-WantedBy=graphical-session.target
+WantedBy=graphical.target
