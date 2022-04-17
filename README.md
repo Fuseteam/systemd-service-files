@@ -18,6 +18,13 @@ mv ~/Downloads/anbox-session-manager.service ~/.config/systemd/user/anbox-sessio
 systemctl --user enable --now anbox-session-manager
 ```
 
+or alternatively you can download it directly
+```
+mkdir -p ~/.config/systemd/user
+wget -O ~/.config/systemd/user/anbox-session-manager.service https://raw.githubusercontent.com/Fuseteam/systemd-service-files/main/user/anbox-session-manager.service
+systemctl --user enable --now anbox-session-manager
+```
+
 you can check if anbox's session-manager is running properly with 
 ```
 systemctl --user status anbox-session-manager
