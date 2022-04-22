@@ -1,5 +1,6 @@
 [Unit]
 Description=Nextcloud
+BindTo=graphical.target
 
 [Service]
 RemainAfterExit=yes

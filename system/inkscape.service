@@ -1,10 +1,11 @@
 [Unit]
-Description=GIMP
+Description=Inkscape
+BindTo=graphical.target
 
 [Service]
 RemainAfterExit=yes
-ExecStart=/usr/bin/snap enable gimp
-ExecStop=/usr/bin/snap disable gimp
+ExecStart=/usr/bin/snap enable inkscape
+ExecStop=/usr/bin/snap disable inkscape
 
 [Install]
 WantedBy=graphical.target
