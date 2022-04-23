@@ -3,3 +3,4 @@ Description=Ncentral take control service
 
 [Service]
 ExecStart=/usr/bin/wine "/home/tk/.wine/drive_c/users/tk/Local Settings/Application Data/MSP Anywhere for N-central/Viewer/NCentralRDLdr.exe" -- %u
+ExecStop=/usr/bin/wineserver -k
