@@ -1,0 +1,9 @@
+[Unit]
+Description=Binder Mount Service
+
+[Service]
+ExecStartPre=/bin/mkdir /dev/binder
+ExecStart=/bin/mount -t binder binder /dev/binder/
+
+[Install]
+WantedBy=graphical.target
