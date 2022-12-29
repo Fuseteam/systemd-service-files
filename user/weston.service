@@ -2,7 +2,7 @@
 Description=Weston Compositor
 
 [Service]
-ExecStart=/usr/bin/weston
+ExecStart=/usr/bin/weston --socket=waydroid
 
 [Install]
 WantedBy=graphical-session.target

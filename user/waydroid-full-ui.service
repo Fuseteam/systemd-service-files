@@ -1,0 +1,9 @@
+[Unit]
+Description=Waydroid Full UI
+Requires=weston.service
+
+[Service]
+ExecStart=/usr/bin/waydroid show-full-ui
+
+[Install]
+WantedBy=graphical-session.target

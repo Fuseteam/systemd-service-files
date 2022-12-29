@@ -1,0 +1,10 @@
+[Unit]
+Description=Waydroid Session
+
+[Service]
+Environment="WAYLAND_DISPLAY=waydroid"
+Environment="XDG_SESSION_TYPE=wayland"
+ExecStart=/usr/bin/waydroid session start
+
+[Install]
+WantedBy=graphical-session.target
